@@ -4,7 +4,7 @@ import {initializer, reducer} from "../reducer/UseReducer";
 export const UserContext = createContext()
 
 export const UserProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(reducer,[],initializer);
+  const [state, dispatch] = useReducer(reducer,false,initializer);
 
 
 useEffect(() => {

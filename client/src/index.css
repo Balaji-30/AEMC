@@ -1,13 +1,25 @@
+:root {
+  --fontFamily: "Open Sans",sans-serif;
+  --fontFamily2: "Playfair Display",serif;
+  --mainColor: #fe4a55;
+  --secondaryColor: #6ba292;
+  --optionalColor: #606060;
+  --whiteColor: #fff;
+  --blackColor: #221638;
+  --fontSize: 16px;
+  --transition: .5s;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

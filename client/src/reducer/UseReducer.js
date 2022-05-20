@@ -1,4 +1,4 @@
-const initialState = [];
+const initialState = false;
 
 export const initializer = (initialValue = initialState) =>
   JSON.parse(localStorage.getItem("state")) || initialValue;

@@ -1,0 +1,9 @@
+.logo{
+    max-width: 200px;
+}
+
+@media only screen and (max-width: 992px){
+    .logo{
+        max-width: 100px;
+    }
+    }
